@@ -1,5 +1,10 @@
+import java.io.*;
+
 public class hello{
 	public static void main(String[] args) {
-		System.out.println("Hello, World");
+		Scanner scanner = new Scanner(System.in);
+	        double payment = scanner.nextDouble();
+	        scanner.close();
+		System.out.println(payment);
 	}
 }
